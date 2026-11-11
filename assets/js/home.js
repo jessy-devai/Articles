@@ -25,17 +25,9 @@
     return n;
   }
 
-  /* --- Dernier essai (hero + carte mise en avant) ------------------------ */
+  /* --- Dernier essai (carte mise en avant) ------------------------ */
   var last = list[0];
   if (last) {
-    var pill = doc.querySelector("[data-latest]");
-    if (pill) {
-      pill.href = url(last);
-      pill.querySelector(".badge").textContent = num(last);
-      pill.querySelector("small").textContent = "Dernier essai · N°" + num(last);
-      pill.querySelector("b").textContent = fr(last.titre);
-    }
-
     var slot = doc.querySelector("[data-feature]");
     if (slot) {
       var a = el("a", "feature");
