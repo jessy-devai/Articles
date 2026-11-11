@@ -1,0 +1,260 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<meta name="theme-color" content="#020403">
+<title>Est-ce que vous pensez comme une IA ? — in</title>
+<meta name="description" content="Un essai sur ce que le langage naturel change dans la conception, et sur la redistribution du travail cognitif entre humains et IA.">
+<link rel="canonical" href="https://jessy-devai.github.io/Articles/articles/pensez-comme-une-ia/">
+<meta property="og:type" content="article">
+<meta property="og:site_name" content="in">
+<meta property="og:locale" content="fr_FR">
+<meta property="og:title" content="Est-ce que vous pensez comme une IA ?">
+<meta property="og:description" content="Un essai sur ce que le langage naturel change dans la conception, et sur la redistribution du travail cognitif entre humains et IA.">
+<meta property="og:url" content="https://jessy-devai.github.io/Articles/articles/pensez-comme-une-ia/">
+<meta property="og:image" content="https://jessy-devai.github.io/Articles/articles/pensez-comme-une-ia/partage.jpg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="article:published_time" content="2026-09-01">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="icon" href="../../assets/img/favicon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,300..700&amp;family=Instrument+Serif:ital@0;1&amp;display=swap">
+<link rel="stylesheet" href="../../assets/css/in.css">
+<link rel="stylesheet" href="../../assets/css/article.css">
+<script src="../../assets/js/catalogue.js" defer></script>
+<script src="../../assets/js/article.js" defer></script>
+</head>
+<body class="page-article" data-article="pensez-comme-une-ia">
+<a class="skip" href="#contenu">Aller au contenu</a>
+
+<header class="site-bar">
+  <a class="site-logo" href="../../" aria-label="in — retour à l’accueil"><img src="../../assets/img/logo-in.svg" alt="" width="44" height="29"></a>
+  <nav class="site-nav" aria-label="Navigation principale">
+    <a href="../../#articles">Articles</a>
+  </nav>
+  <div class="progress" aria-hidden="true"></div>
+</header>
+
+<main id="contenu">
+  <header class="cover">
+    <div class="cover-content">
+      <p class="kicker">Essai · IA &amp; cognition</p>
+      <h1 style="view-transition-name:t-pensez-comme-une-ia">Est-ce que vous pensez comme une IA&nbsp;?</h1>
+      <p class="dek">Ce que le langage naturel change dans la conception — et ce qu’il pourrait changer dans notre manière de penser la valeur humaine.</p>
+      <p class="meta"><span>Lecture ~ 9 min</span><span class="dot" aria-hidden="true"></span><time datetime="2026-09">Septembre 2026</time></p>
+    </div>
+    <figure class="cover-art" aria-hidden="true"><img src="../../assets/img/cover-in.svg" alt="" width="620" height="370"></figure>
+  </header>
+
+  <article class="article">
+<p>Il y a encore peu de temps, transformer une idée en solution numérique supposait de maîtriser une langue particulière.</p>
+
+<p>Pas nécessairement un langage de programmation, mais au minimum celui de la technique : fonctionnalités, architecture, règles métier, interfaces, données, dépendances…</p>
+
+<p>L'arrivée des IA génératives est en train de déplacer cette frontière : une part croissante de ce que nous pouvons concevoir et construire devient accessible directement en langage naturel.</p>
+
+<p>Aujourd'hui, on peut commencer beaucoup plus simplement :</p>
+
+<blockquote class="prompt bleed">« J'aimerais créer un outil qui… »</blockquote>
+
+<p>Quelques phrases peuvent désormais devenir le point de départ d'une interface, d'un prototype, d'un agent ou même d'une application.</p>
+
+<p>Cela ne suffit évidemment pas à produire un système fiable, sécurisé, maintenable ou adapté à un contexte réel. <span class="aside">#vibecoding sans limites, n’est-ce pas ?</span></p>
+
+<p>Mais cela peut donner une vague impression que la technique disparaît sous les mots.</p>
+
+<p>Je vous assure : elle ne disparaît pas.</p>
+
+<p class="pull bleed"><strong>Elle change juste de place.</strong></p>
+
+<div class="breath bleed"></div>
+
+<p>Prenons une idée relativement simple :</p>
+
+<blockquote class="bleed">« Je voudrais un assistant qui aide une équipe à capitaliser les connaissances importantes produites pendant ses projets. »</blockquote>
+
+<p>L'intention est immédiatement compréhensible pour un humain.</p>
+
+<p>Mais pour en faire une solution, il faut assez vite répondre à d'autres questions.</p>
+
+<p class="questions">Quelles connaissances ? Produites où ? Comment les identifier ? Qui peut les consulter ? Comment les organiser ? Que doit faire l'assistant face à une information contradictoire ? Que signifie exactement « capitaliser » ? Comment savoir si le résultat est satisfaisant ?</p>
+
+<p class="aside">… et je pourrais en ajouter encore quelques-unes, juste pour le plaisir de rallonger cet article.</p>
+
+<p>Autrement dit, il faut passer d'une <strong>intention</strong> à une <strong>représentation structurée du problème</strong>.</p>
+
+<p>Et c'est précisément là que quelque chose devient intéressant, mais reste finalement assez peu mis en avant.</p>
+
+<p class="pivot"><strong>Le code n’est pas encore écrit. Pourtant, une grande partie du système est déjà en train d’être conçue.</strong></p>
+
+<p>Des chercheurs proposent même de traiter le prompting complexe comme un problème d’exigences : clarifier ce que le système doit faire, pour qui, sous quelles contraintes et selon quels critères de qualité.</p>
+
+<p>Leur approche, baptisée <em>Requirement-Oriented Prompt Engineering</em> — ingénierie de prompts orientée exigences — déplace l’attention des « prompts astucieux » vers la qualité des exigences exprimées.<a class="ref" href="#ref-1" aria-label="Référence 1">1</a></p>
+
+<p>Le langage naturel ne supprimerait donc pas la conception.</p>
+
+<p class="pivot"><strong>Il pourrait en devenir l'une des principales interfaces.</strong></p>
+
+<div class="breath bleed"></div>
+
+<p class="big-question bleed">Mais faut-il pour autant « penser » comme une IA ?</p>
+
+<p>Faut-il avoir un esprit analytique pour bien travailler avec elle ?</p>
+
+<p>La question est tentante. Elle peut même avoir quelque chose de rassurant par les temps qui courent.</p>
+
+<div class="contrast bleed">
+  <div><span class="marker">A</span><p>Certaines personnes commencent par découper : objectif, acteurs, étapes, règles, exceptions, critères de réussite.</p></div>
+  <div><span class="marker">B</span><p>D’autres commencent par une scène, une intuition ou une image du résultat souhaité, avant de préciser progressivement leur pensée.</p></div>
+</div>
+
+<p>Ce ne sont pas nécessairement deux profils différents. Ce sont aussi deux mouvements possibles de la conception.</p>
+
+<p class="pull bleed"><strong>Ouvrir le champ des possibles, puis rendre une possibilité suffisamment précise pour pouvoir la construire et l’évaluer.</strong></p>
+
+<p>Est-ce que le premier mouvement facilite la collaboration avec une IA ?</p>
+
+<p>Ce n'est pas sûr.</p>
+
+<p>Nous n'avons pas aujourd'hui de raison scientifique suffisante pour établir une relation aussi simple entre un « profil analytique » et la capacité à utiliser efficacement un LLM.</p>
+
+<p>On peut en revanche déplacer légèrement la question.</p>
+
+<p class="big-question bleed">Certaines compétences cognitives deviennent-elles particulièrement utiles lorsque le langage naturel devient une interface de conception ?</p>
+
+<p>Probablement.</p>
+
+<ul class="skills">
+  <li>Savoir décomposer un problème.</li>
+  <li>Identifier une contrainte implicite.</li>
+  <li>Repérer une contradiction.</li>
+  <li>Distinguer le vrai du simplement plausible.</li>
+  <li>Construire par itérations.</li>
+</ul>
+
+<p>Rien de tout cela n'est nouveau, on est d'accord.</p>
+
+<p>Ces compétences existaient bien avant l'IA. Elles appartiennent au raisonnement, à l'ingénierie, au design, à la gestion de projet ou tout simplement à la résolution de problèmes.</p>
+
+<p>Ce qui change, c’est qu’on peut désormais mobiliser une logique de conception sans maîtriser toutes les compétences nécessaires à son implémentation.</p>
+
+<p class="pull bleed"><strong>Cela rend la conception plus accessible. Pas nécessairement le raisonnement plus facile.</strong></p>
+
+<p>Car l’accessibilité technique ne signifie pas la disparition de l’effort intellectuel.</p>
+
+<p>Plus clairement : <strong>mieux utiliser l’IA ne signifie pas nécessairement lui déléguer davantage de réflexion.</strong></p>
+
+<p>Une étude menée auprès d’étudiants confrontés à des problèmes économiques a observé que les participants présentant davantage de réflexion cognitive et un niveau plus élevé de <em>need for cognition</em> obtenaient de meilleures performances tout en déclarant moins s’appuyer sur l’IA. À l’inverse, une réflexion cognitive plus faible était associée à davantage de confiance dans l’outil.<a class="ref" href="#ref-2" aria-label="Référence 2">2</a></p>
+
+<p>Peut-être que la compétence n’est donc pas de penser comme l’IA.</p>
+
+<p class="pull bleed"><strong>Elle consiste plutôt à structurer suffisamment sa propre pensée pour choisir ce que l’on veut lui déléguer.</strong></p>
+
+<div class="breath bleed"></div>
+
+<p>Mais un autre problème apparaît.</p>
+
+<p class="big-question bleed">Et si l’IA imaginait aussi ?</p>
+
+<p>C’est là que le raisonnement devient moins confortable.</p>
+
+<p>Une grande partie des compétences que nous valorisons dans la conception peut désormais être assistée : décomposer, proposer une structure, identifier des cas limites, rédiger des spécifications, produire des alternatives ou transformer une description fonctionnelle en code.</p>
+
+<p>Une personne capable de formuler clairement son intention peut ainsi accéder à une capacité de formalisation considérable.</p>
+
+<p>La tentation est alors immédiate : déplacer ailleurs la frontière de la valeur humaine.</p>
+
+<p>Si la machine devient particulièrement performante pour analyser, structurer et formaliser… notre avantage ne serait-il pas ailleurs ?</p>
+
+<div class="staccato">
+  <p>Dans l'imagination.</p>
+  <p>Dans l'intuition.</p>
+  <p>Dans la capacité à associer deux idées qui n'avaient aucune raison évidente de se rencontrer.</p>
+</div>
+
+<p>Ou simplement dans cette étape étrange qui précède parfois toute méthodologie :</p>
+
+<blockquote class="prompt bleed">« Et si on faisait ça ? »</blockquote>
+
+<p>L'hypothèse est séduisante.</p>
+
+<p>Elle dessinerait presque une répartition rassurante :</p>
+
+<p class="equation bleed"><span>l'humain imagine</span><i>/</i><span>l'IA structure</span></p>
+
+<p>Sauf que cette frontière est, elle aussi, en train de devenir moins nette.</p>
+
+<p>Des expériences sur des tâches de pensée divergente montrent que des modèles génératifs peuvent dépasser le niveau moyen de participants humains sur certaines mesures d’originalité et d’élaboration. D’autres résultats suggèrent cependant que les meilleures productions humaines restent comparables, voire supérieures, aux meilleures productions de l’IA.<a class="ref" href="#ref-3" aria-label="Référence 3">3</a><a class="ref" href="#ref-4" aria-label="Référence 4">4</a></p>
+
+<p>Cela ne signifie pas qu’un test de pensée divergente mesure « la créativité » dans son ensemble.</p>
+
+<p>Générer vingt usages originaux pour une brique ne permet pas de mesurer ce qui se passe lorsqu’un chercheur formule une hypothèse, qu’un entrepreneur identifie un problème délaissé ou qu’un designer construit une expérience désirable.</p>
+
+<p>Mais ces résultats suffisent déjà à fragiliser une séparation confortable.</p>
+
+<p>Les modèles génératifs savent eux aussi produire des associations inhabituelles et explorer rapidement un grand nombre de possibilités.</p>
+
+<p>Ils peuvent aussi modifier notre propre production créative : dans cinq expériences publiées dans <em>Nature Human Behaviour</em>, les participants utilisant ChatGPT ont produit des idées jugées plus créatives que ceux qui n’avaient pas d’outil ou recouraient à une recherche web classique.<a class="ref" href="#ref-5" aria-label="Référence 5">5</a></p>
+
+<p>La question devient donc moins :</p>
+
+<blockquote class="bleed">« Quelle capacité restera exclusivement humaine ? »</blockquote>
+
+<p>Et peut-être davantage :</p>
+
+<p class="big-question bleed">« Que se passe-t-il lorsque humains et machines deviennent tous les deux capables de générer des possibilités ? »</p>
+
+<p>La psychologie cognitive apporte ici une distinction utile.</p>
+
+<p>Une idée créative n'est pas seulement une idée nouvelle.</p>
+
+<p>Elle doit aussi être <strong>appropriée</strong> : pertinente au regard du problème, du contexte ou de l'objectif poursuivi.</p>
+
+<p>Une étude portant sur plus de 1 500 participants distingue précisément ces deux dimensions. La nouveauté des idées apparaît davantage liée aux capacités d’association sémantique, tandis que leur pertinence est davantage associée aux fonctions exécutives : contrôle, mémoire de travail, flexibilité cognitive.<a class="ref" href="#ref-6" aria-label="Référence 6">6</a></p>
+
+<p class="pull bleed"><strong>En somme : imaginer suppose d’associer. Créer suppose aussi de sélectionner.</strong></p>
+
+<p>Une idée peut être originale et inutile.</p>
+
+<p>Une solution techniquement impressionnante peut résoudre le mauvais problème.</p>
+
+<p>Une architecture parfaitement structurée peut formaliser une intention médiocre.</p>
+
+<p>Et une IA capable de générer dix, cent ou mille possibilités déplace nécessairement une partie du problème :</p>
+
+<p class="big-question bleed">que faisons-nous de toutes ces possibilités ?</p>
+
+<p>À mesure que le coût de génération diminue, produire une idée pourrait devenir moins rare.</p>
+
+<p>Formuler le problème, orienter l’exploration, reconnaître une piste intéressante, contextualiser une réponse et décider de poursuivre ou d’abandonner une direction pourraient alors prendre une importance différente.</p>
+
+<p class="ending bleed"><strong>Nous ne serions plus seulement face à une automatisation de tâches.</strong><br><br><strong>Nous commencerions peut-être à observer une redistribution beaucoup plus subtile du travail cognitif entre l’humain et la machine.</strong></p>
+  </article>
+
+  <section class="references" aria-labelledby="refs-title">
+    <div class="references-head"><h2 id="refs-title">Références</h2><span class="note">Sources consultées pour les travaux cités</span></div>
+    <ol>
+<li id="ref-1"><span class="refnum">01</span><div><a href="https://doi.org/10.1145/3731756" target="_blank" rel="noopener">What Should We Engineer in Prompts? Training Humans in Requirement-Driven LLM Use</a><small>Qianou Ma et al. — ACM Transactions on Computer-Human Interaction, 2025</small></div></li>
+      <li id="ref-2"><span class="refnum">02</span><div><a href="https://link.springer.com/article/10.1007/s10639-025-13738-8" target="_blank" rel="noopener">Do students need to think hard? The interplay of AI and cognitive abilities in solving problems</a><small>Adrian Alexandru Moșoi et al. — Education and Information Technologies, 2025</small></div></li>
+      <li id="ref-3"><span class="refnum">03</span><div><a href="https://www.nature.com/articles/s41598-024-53303-w" target="_blank" rel="noopener">The current state of artificial intelligence generative language models is more creative than humans on divergent thinking tasks</a><small>Scientific Reports, 2024</small></div></li>
+      <li id="ref-4"><span class="refnum">04</span><div><a href="https://www.nature.com/articles/s41598-023-40858-3" target="_blank" rel="noopener">Best humans still outperform artificial intelligence in a creative divergent thinking task</a><small>Mika Koivisto &amp; Simone Grassini — Scientific Reports, 2023</small></div></li>
+      <li id="ref-5"><span class="refnum">05</span><div><a href="https://www.nature.com/articles/s41562-024-01953-1" target="_blank" rel="noopener">An empirical investigation of the impact of ChatGPT on creativity</a><small>Byung Cheol Lee &amp; Jaeyeon Chung — Nature Human Behaviour, 2024</small></div></li>
+      <li id="ref-6"><span class="refnum">06</span><div><a href="https://www.nature.com/articles/s42003-024-06405-0" target="_blank" rel="noopener">Semantic associative abilities and executive control functions predict novelty and appropriateness of idea generation</a><small>Xueyang Wang et al. — Communications Biology, 2024</small></div></li>
+    </ol>
+  </section>
+
+  <nav class="read-next" aria-label="À lire ensuite" hidden><h2>À lire ensuite</h2></nav>
+</main>
+
+<footer class="site-footer">
+  <div class="inner">
+    <a class="foot-mark" href="../../" aria-label="in — accueil"><img src="../../assets/img/logo-in.svg" alt="" width="56" height="36"></a>
+    <p>Essais indépendants · IA, langage &amp; apprentissage</p>
+    <p class="foot-nav"><a href="../../#articles">Tous les articles</a></p>
+  </div>
+</footer>
+</body>
+</html>
